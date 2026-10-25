@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#064e3b" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <g transform="translate(64, 64) scale(0.75)" filter="url(#shadow)">
+    <!-- Shopping Cart Outline -->
+    <path d="M40 80h60l48 240h220l40-160H130" fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Wheels -->
+    <circle cx="168" cy="380" r="32" fill="#FFFFFF"/>
+    <circle cx="348" cy="380" r="32" fill="#FFFFFF"/>
+    <!-- Shield / Safety Check Inside Cart -->
+    <path d="M260 140v90c0 40 40 60 70 70 30-10 70-30 70-70v-90l-70-25-70 25z" fill="#10B981" stroke="#FFFFFF" stroke-width="12" stroke-linejoin="round"/>
+    <!-- Rupiah / Checkmark -->
+    <path d="M295 195l25 25 50-50" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
